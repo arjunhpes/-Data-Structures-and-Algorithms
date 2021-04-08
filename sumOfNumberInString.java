@@ -1,3 +1,29 @@
+/*
+Given a string containing alphanumeric characters, calculate sum of all numbers present in the string.
+
+Input Format
+First line contains the number of testcases.
+
+For each testcase, input a string
+
+Constraints
+1 <= T <= 100
+1 <= Length of string <= 10000
+
+Output Format
+Integer output for each testcase in a new line
+
+Sample Input
+1
+1abc23
+Sample Output
+24
+Explanation
+For 1abc23,
+1 + 23 = 24
+*/
+
+
 package Array;
 
 import java.util.Scanner;
