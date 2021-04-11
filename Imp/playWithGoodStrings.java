@@ -22,7 +22,9 @@ public class Main {
 
         for (int i = 0; i < s.length; i++) {
             if (isVowel(s[i]))
+            {
                 count++;
+            }
             else {
                 res = Math.max(res, count);
                 count = 0;
